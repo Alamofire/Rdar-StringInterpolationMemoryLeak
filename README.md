@@ -17,3 +17,7 @@ Run the sample app with the Leaks instrument to produce the memory leak. Here ar
 The issue is caused by using string interpolation in the Timeline implementation of `CustomStringConvertible` and `CustomDebugStringConvertible` in Alamofire. Temporarily, we've moved over to string concatenation as a workaround to stop the leak in [PR #1262](https://github.com/Alamofire/Alamofire/pull/1262).
 
 > Once the leak is fixed in Swift, we can move back to using string interpolation as that is certainly preferred.
+
+## Rdar
+
+This issue has been filed as `rdar://26761490` on 2016/06/12 and can be found on Open Radar [here](https://openradar.appspot.com/radar?id=5010235949318144).
