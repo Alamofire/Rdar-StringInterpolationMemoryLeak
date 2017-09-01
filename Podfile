@@ -1,6 +1,6 @@
-platform :ios, '9.0'
+platform :ios, '11.0'
 use_frameworks!
 
 target 'String Interpolation' do
-  pod 'Alamofire', '3.4.0'
+  pod 'Alamofire', '~> 4.0'
 end

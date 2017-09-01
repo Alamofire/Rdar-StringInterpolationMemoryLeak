@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        Alamofire.request(.GET, "https://httpbin.org/GET").responseJSON { response in
+        Alamofire.request("https://httpbin.org/get").responseJSON { response in
             print(response.debugDescription)
         }
     }
