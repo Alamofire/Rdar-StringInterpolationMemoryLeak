@@ -21,3 +21,7 @@ The issue is caused by using string interpolation in the Timeline implementation
 ## Rdar
 
 This issue has been filed as `rdar://26761490` on 2016/06/12 and can be found on Open Radar [here](https://openradar.appspot.com/radar?id=5010235949318144).
+
+## Resolution
+
+This issue was resolved on Sept 1st, 2017 in Xcode 9 beta 6.
